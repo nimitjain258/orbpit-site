@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ORBPIT</title>
+<meta name="description" content="ORBPIT: a 24/7 live battle royale on YouTube where chat picks the fighters.">
+<style>
+  :root { --bg: #f6f5f2; --fg: #1d1d1f; --muted: #5b5b60; --accent: #c2410c; --card: #ffffff; --line: #e4e2dc; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #141416; --fg: #ececf0; --muted: #a2a2aa; --accent: #fb923c; --card: #1e1e22; --line: #2e2e34; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 20px 72px; }
+  h1 { font-size: 44px; letter-spacing: 0.04em; margin: 0 0 6px; }
+  .tag { color: var(--muted); font-size: 19px; margin: 0 0 36px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 22px 24px; margin: 0 0 18px; }
+  h2 { font-size: 19px; margin: 0 0 8px; }
+  p, ul { margin: 0 0 10px; }
+  ul { padding-left: 20px; }
+  code { background: var(--bg); border: 1px solid var(--line); border-radius: 5px; padding: 1px 6px; font-size: 15px; }
+  a { color: var(--accent); }
+  .button { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; padding: 11px 20px; border-radius: 8px; margin-top: 6px; }
+  footer { color: var(--muted); font-size: 15px; margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>ORBPIT</h1>
+  <p class="tag">A 24/7 live battle royale on YouTube, where the chat picks the fighters.</p>
+
+  <div class="card">
+    <h2>How it works</h2>
+    <p>Round orb warriors fight it out in a pixel-art arena, around the clock. Every fight is simulated live, and the top three finish on the podium.</p>
+    <ul>
+      <li>Type <code>!join</code> in the live chat to send your own orb into a fight.</li>
+      <li>Type <code>!</code> followed by a class name to pick how it fights.</li>
+      <li>Type <code>!predict</code> to call the winner and climb the predictor leaderboard.</li>
+    </ul>
+    <a class="button" href="https://www.youtube.com/channel/UC1I0rRTQRyjiSFDN0EvAXDA/live">Watch live on YouTube</a>
+  </div>
+
+  <div class="card">
+    <h2>About the GameSim app</h2>
+    <p>GameSim is the software that runs the ORBPIT stream. It signs in to the ORBPIT YouTube channel only, to find the channel's own live broadcast, read its live chat, and start the broadcast after the stream restarts. It is not offered to anyone else, and it never accesses other people's accounts.</p>
+  </div>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a> · Contact: <a href="mailto:orbpit.business@gmail.com">orbpit.business@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
